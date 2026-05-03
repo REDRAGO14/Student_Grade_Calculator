@@ -32,8 +32,4 @@ This project was developed as part of a university assignment to transition from
   - Method Overriding  
   - Encapsulation  
   - Access Modifiers  
-  - Static Methods  
 
----
-
-## 🧱 Project Structure
