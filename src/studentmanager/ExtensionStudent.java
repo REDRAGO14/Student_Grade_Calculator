@@ -5,8 +5,8 @@ public class ExtensionStudent extends Student {
 
     @Override
     public String CalculateGrade(){
-        if (mark >= 85) return "A";
-        else if (mark >= 75) return "B";
+        if (getMark() >= 85) return "A";
+        else if (getMark() >= 75) return "B";
         else return super.CalculateGrade();
 
     }

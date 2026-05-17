@@ -5,7 +5,11 @@ public class Student extends Person {
         super(name);
         this.mark = mark;
     }
-    // final mthd cannot be overridden
+
+    public double getMark() {
+        return mark;
+    }
+
     public final void showRules() {
         System.out.println("Grading rules are standardized.");
     }

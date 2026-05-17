@@ -1,12 +1,12 @@
 public class GradeReport {
 
-
+        University uni = new University();
         public void printReport(Student student) {
-            System.out.println("\n===== REPORT =====");
-            System.out.println("School:" );
-            System.out.println("Student: " + student.name);
-            System.out.println("Grade: " + student.CalculateGrade());
 
+            System.out.println("\n===== REPORT =====");
+            uni.display();
+            System.out.println("Student: " + student.getName());
+            System.out.println("Grade: " + student.CalculateGrade());
             student.showRules();
         }
 }
