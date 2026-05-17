@@ -1,5 +1,5 @@
 public class Student extends Person {
-    double mark;
+    private double mark;
 
     public Student(String name, double mark){
         super(name);
@@ -8,6 +8,10 @@ public class Student extends Person {
 
     public double getMark() {
         return mark;
+    }
+
+    public void setMark(double mark) {
+        if(mark >= 0 && mark <= 100) this.mark = mark;
     }
 
     public final void showRules() {
